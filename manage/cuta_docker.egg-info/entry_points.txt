@@ -1,0 +1,3 @@
+[console_scripts]
+cuta-docker = cutadocker.cli:cli
+
