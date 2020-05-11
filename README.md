@@ -7,30 +7,6 @@ This project provides a collection of Docker images for [Cuta]. These
 images are designed to make it easier to **build**, **test** and
 **deploy** container-based applications (i.e. services, serverless).
 
-How exactly does **Cuta Docker** make it easier to **build**, **test**
-and **deploy** applications? By providing the following features:
-
-### Ready-To-Go Environments
-
-The images in this project are **ready-to-go** development environments.
-This means you don't have to worry about installing things like runtimes,
-package managers and many of the obscure libraries required to build
-your software. It all comes pre-packaged in our environments. Of course,
-if you want to customise the images with your favourite development tools,
-you can! All our environments are publicly accessible as docker images.
-You can extend them or replace them entirely.
-
-
-### Consistent Environments
-
-As mentioned, our **ready-to-go** development environments come with
-everything you need to **build**, **test** and **deploy** your app. The
-only software you'll need to install is the software required by your
-app at runtime (and we provide an easy way to do that too!). Not only
-that, our images provide consistency for you and your fellow developers.
-You won't have to worry about version descrepancies or platform variants.
-
-
 <br/>
 
 ## Images
