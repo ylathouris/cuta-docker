@@ -21,4 +21,5 @@ ENV PYENV_ROOT $HOME/.pyenv
 ENV PATH $PYENV_ROOT/shims:$PYENV_ROOT/bin:$PATH
 
 # Label as cuta image.
+LABEL io.cuta="true"
 LABEL io.cuta.name="aws-python"

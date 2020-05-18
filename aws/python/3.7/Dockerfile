@@ -13,5 +13,8 @@ RUN curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-
 ENV POETRY_ROOT $HOME/.poetry
 ENV PATH $POETRY_ROOT/bin:$PATH
 
+# Don't use virtual environments
+RUN poetry config virtualenvs.create false
+
 # Set command prompt
 ENV PS1='🐳 \[\033[1;36m\](cuta@\h\[\033[1;36m\]) \[\033[0m\]'
